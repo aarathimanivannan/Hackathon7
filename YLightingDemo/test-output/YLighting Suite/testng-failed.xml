@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [YLighting Suite]">
+  <test thread-count="5" name="YLightingTest(failed)">
+    <classes>
+      <class name="Tests.TC001_AccountCreation">
+        <methods>
+          <include name="createAccount"/>
+          <include name="accountCreationSuccess"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- Tests.TC001_AccountCreation -->
+    </classes>
+  </test> <!-- YLightingTest(failed) -->
+</suite> <!-- Failed suite [YLighting Suite] -->
